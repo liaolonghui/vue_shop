@@ -6,15 +6,14 @@
 
 <script>
 export default {
-    methods: {
-        logout(){
-            window.sessionStorage.clear();//也可以removeItem('token')
-            this.$router.push('/login');
-        }
-    },
+  methods: {
+    logout() {
+      window.sessionStorage.clear() // 也可以removeItem('token')
+      this.$router.push('/login')
+    }
+  }
 }
 </script>
 
 <style lang="less" scoped>
-    
 </style>
